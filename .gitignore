@@ -1,0 +1,7 @@
+*.h5
+*.pyc
+*.rar
+embeddings.txt
+*.npz
+*.idx
+.ipynb_checkpoints

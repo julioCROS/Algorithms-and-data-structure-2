@@ -1,0 +1,6 @@
+*.h5
+*.pyc
+embeddings.txt
+*.npz
+.ipynb_checkpoints
+__pycache__
