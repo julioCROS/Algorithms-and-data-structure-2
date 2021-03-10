@@ -43,7 +43,7 @@ class TestArvGeradoraMinima(unittest.TestCase):
             vertice_valor = vertice.valor
             pai_resposta_valor = pai_resposta.valor if not pai_resposta is None else None
             self.assertEqual(pai_esperado[vertice_valor],pai_resposta_valor,
-                            f"Arvore geradora minima iniciada {valor_vertice_inicial}: o vértice pai TESTE de {vertice_valor} é {pai_esperado[vertice_valor]} e não {pai_resposta_valor}")
+                            f"Arvore geradora minima iniciada {valor_vertice_inicial}: o vértice pai de {vertice_valor} é {pai_esperado[vertice_valor]} e não {pai_resposta_valor}")
     def test_arv_geradora_minima(self):
         pai_esperado_por_v_inicial = {   "A":{
                                                 "A":None,
