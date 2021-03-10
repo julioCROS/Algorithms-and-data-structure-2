@@ -7,3 +7,4 @@ embeddings.txt
 .vscode
 .gitignore
 .ipynb_checkpoints
+*.txt
