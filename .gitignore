@@ -4,4 +4,6 @@
 embeddings.txt
 *.npz
 *.idx
+.vscode
+.gitignore
 .ipynb_checkpoints
